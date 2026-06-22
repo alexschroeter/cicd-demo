@@ -1,3 +1,8 @@
+name: Workshop
+on:
+  push:
+  workflow_dispatch:
+
 jobs:
   ubuntu-minimal:
     runs-on: ${{ matrix.os }}
